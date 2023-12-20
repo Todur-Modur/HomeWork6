@@ -1,14 +1,10 @@
-*{
-    
-}
-  
-}
 .main-back{
     background-color: #EEEFF1;
     flex-shrink: 0;
 }
 .header-list{
     display:flex;
+    /* сорі, досі не зрозумів, як ставити в один ряд об'єкти без флексу */
     list-style: none;
     gap: 41px;
     color: #000;
@@ -21,6 +17,7 @@
 }
 .homepage{
     display:flex;
+    /* якогось фіга хоумпейдж не більшій відстані стоїть, ніж я вказав */
     margin-left: 399px;
     color: var(--Accent, #34547A);
     font-weight: 500;
@@ -36,6 +33,8 @@
     line-height: 164.063%;
 }
 .title-desc{
+    width: 540px;
+    height: 67px;
     padding-left: 399px;
     flex-shrink: 0;
     color: #727272;
@@ -46,6 +45,7 @@
 }
 .button{
     margin-left: 399px;
+    margin-top: 65px;
     min-width: 225px;
     min-height: 65px;
     background-color: #34547A;
@@ -72,6 +72,9 @@
     text-align: center;
 }
 .small-title-desc{
+    width: 540px;
+    height: 67px;
+    margin: auto;
     color: #727272;
     font-size: 16px;
     font-style: normal;
@@ -89,11 +92,8 @@
     width: 50px;
     height: 50px;
     flex-shrink: 0;
-}
-.video{
-    display: inline;
-    width: 1110px;
-    height: 600px;
+    gap: 136px;
+    /* як тут поставити необхідну відстань між об'єктами? */
 }
 .footer{
     background-color: #34547A;

@@ -1,4 +1,118 @@
-.projects{
+*{
+    
+}
+  
+}
+.main-back{
+    background-color: #EEEFF1;
+    flex-shrink: 0;
+}
+.header-list{
+    display:flex;
+    list-style: none;
+    gap: 41px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.homepage{
+    display:flex;
+    margin-left: 399px;
+    color: var(--Accent, #34547A);
+    font-weight: 500;
+}
+.main-title{
+    margin-left: 399px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.063%;
+}
+.title-desc{
+    padding-left: 399px;
+    flex-shrink: 0;
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
+.button{
+    margin-left: 399px;
+    min-width: 225px;
+    min-height: 65px;
     background-color: #34547A;
     color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 164.063%;
+    letter-spacing: 1.6px;
+}
+.second-title{
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    background-color: #F9F9F9;
+}
+.small-title{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.small-title-desc{
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
+.projects{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    text-align: center;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.video{
+    display: inline;
+    width: 1110px;
+    height: 600px;
+}
+.footer{
+    background-color: #34547A;
+}
+.name-footer{
+    padding-left: 406px;
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.copyright-footer{
+    padding-left: 406px;
+    padding-bottom: 50px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
 }

@@ -31,7 +31,6 @@ li{
     color: #000;
     font-size: 48px;
     font-weight: 500;
-    line-height: 164.063%;
 }
 .title-desc{
     width: 540px;
@@ -41,7 +40,6 @@ li{
     color: #727272;
     font-size: 16px;
     font-weight: 400;
-    line-height: 164.063%;
 }
 .button{
     margin-left: 399px;
@@ -49,12 +47,10 @@ li{
     min-width: 225px;
     min-height: 65px;
     background-color: #34547A;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 16px;
-    font-style: normal;
     text-align: center;
     font-weight: 400;
-    line-height: 164.063%;
     letter-spacing: 1.6px;
 }
 .about-me{
@@ -66,7 +62,6 @@ li{
     color: #000;
     font-size: 32px;
     font-weight: 500;
-    line-height: normal;
     text-align: center;
 }
 .small-title-desc{
@@ -75,13 +70,12 @@ li{
     margin: auto;
     color: #727272;
     font-size: 16px;
-    line-height: 164.063%;
 }
 .projects{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #34547A;
-    color: #FFF;
+    color: #fff;
     text-align: center;
 }
 .how-do-i-work{
@@ -103,16 +97,14 @@ li{
 .name-footer{
     padding-left: 406px;
     padding-top: 50px;
-    color: #FFF;
+    color: #fff;
     font-size: 21px;
     font-weight: 500;
-    line-height: normal;
 }
 .copyright-footer{
     padding-left: 406px;
     padding-bottom: 50px;
-    color: #FFF;
+    color: #fff;
     font-size: 13px;
     font-weight: 400;
-    line-height: 164.063%;
 }

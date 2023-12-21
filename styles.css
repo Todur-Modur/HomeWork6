@@ -1,5 +1,6 @@
 .body{
     font-family: Roboto;
+    font-weight: 400;
 }
 .main-back{
     background-color: #EEEFF1;
@@ -80,7 +81,6 @@ li{
     color: #727272;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 164.063%;
 }
 .projects{

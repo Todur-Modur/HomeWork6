@@ -1,6 +1,5 @@
 .main-back{
     background-color: #EEEFF1;
-    flex-shrink: 0;
 }
 li{
     float: left;
@@ -13,9 +12,7 @@ li{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 164.063%;
     letter-spacing: 1.6px;
-    text-transform: uppercase;
 }
 .homepage{
     display:flex;
@@ -60,7 +57,7 @@ li{
     line-height: 164.063%;
     letter-spacing: 1.6px;
 }
-.second-title{
+.about-me{
     flex-shrink: 0;
     color: #000;
     text-align: center;
@@ -91,6 +88,12 @@ li{
     color: #FFFFFF;
     text-align: center;
 }
+.how-do-i-work{
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    background-color: #F9F9F9;
+}
 .img{
     width: 50px;
     height: 50px;
@@ -98,6 +101,7 @@ li{
     gap: 136px;
     /* як тут поставити необхідну відстань між об'єктами? */
 }
+
 .footer{
     background-color: #34547A;
 }

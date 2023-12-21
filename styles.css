@@ -2,9 +2,11 @@
     background-color: #EEEFF1;
     flex-shrink: 0;
 }
+li{
+    float: left;
+    margin: 20px;
+}
 .header-list{
-    display:flex;
-    /* сорі, досі не зрозумів, як ставити в один ряд об'єкти без флексу */
     list-style: none;
     gap: 41px;
     color: #000;
@@ -19,10 +21,11 @@
     display:flex;
     /* якогось фіга хоумпейдж не більшій відстані стоїть, ніж я вказав */
     margin-left: 399px;
-    color: var(--Accent, #34547A);
+    color: #34547A;
     font-weight: 500;
 }
 .main-title{
+    clear: both;
     margin-left: 399px;
     flex-shrink: 0;
     color: #000;

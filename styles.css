@@ -33,7 +33,6 @@ li{
     width: 540px;
     height: 67px;
     padding-left: 399px;
-    flex-shrink: 0;
     color: #727272;
 }
 .button{

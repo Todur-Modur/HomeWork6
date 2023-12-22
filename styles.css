@@ -1,6 +1,7 @@
 .body{
     font-family: Roboto;
     font-weight: 400;
+    font-size: 16px;
 }
 .main-back{
     background-color: #EEEFF1;
@@ -12,8 +13,6 @@ li{
 .header-list{
     list-style: none;
     color: #000;
-    font-size: 16px;
-    font-weight: 400;
     letter-spacing: 1.6px;
 }
 .homepage{
@@ -36,8 +35,6 @@ li{
     padding-left: 399px;
     flex-shrink: 0;
     color: #727272;
-    font-size: 16px;
-    font-weight: 400;
 }
 .button{
     margin-left: 399px;
@@ -46,9 +43,7 @@ li{
     min-height: 65px;
     background-color: #34547A;
     color: #fff;
-    font-size: 16px;
     text-align: center;
-    font-weight: 400;
     letter-spacing: 1.6px;
 }
 .about-me{
@@ -67,7 +62,6 @@ li{
     height: 67px;
     margin: auto;
     color: #727272;
-    font-size: 16px;
 }
 .projects{
     padding-top: 100px;
@@ -104,5 +98,4 @@ li{
     padding-bottom: 50px;
     color: #fff;
     font-size: 13px;
-    font-weight: 400;
 }
